@@ -4,7 +4,7 @@
   "description": "Standardize git commit information",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Info: no test specified\"",
+    "test": "echo \"Error: no test specified\"",
     "prepare": "husky install",
     "commitlint": "commitlint --config commitlint.config.js -e -V"
   },
