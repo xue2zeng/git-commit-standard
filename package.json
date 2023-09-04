@@ -1,0 +1,21 @@
+{
+  "name": "git-commit-standard",
+  "version": "1.0.0",
+  "description": "Standardize git commit information",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "commitlint": "commitlint --config commitlint.config.js -e -V"
+  },
+  "keywords": [
+    "git",
+    "commit"
+  ],
+  "author": "xue.zeng",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "husky": "^8.0.3"
+  }
+}
